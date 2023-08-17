@@ -11,6 +11,8 @@ import { DepartmentComponent } from './core/department/department.component';
 import { OurDoctorsComponent } from './core/our-doctors/our-doctors.component';
 import { QualityHealthComponent } from './core/quality-health/quality-health.component';
 import { AppointmentComponent } from './core/appointment/appointment.component';
+import { BlogcmnRightComponent } from './core/blogcmn-right/blogcmn-right.component';
+import { SecondFooterComponent } from './core/second-footer/second-footer.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +24,9 @@ import { AppointmentComponent } from './core/appointment/appointment.component';
     DepartmentComponent,
     OurDoctorsComponent,
     QualityHealthComponent,
-    AppointmentComponent
+    AppointmentComponent,
+    BlogcmnRightComponent,
+    SecondFooterComponent
   ],
   imports: [
     BrowserModule,
